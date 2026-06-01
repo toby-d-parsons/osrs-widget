@@ -1,0 +1,20 @@
+{
+  "author": "Toby Parsons",
+  "id": "com.tobyparsons.osrswidget",
+  "name": "osrs-widget",
+  "description": "Displays a player's stats and activity stats",
+  "version": "1.0.0",
+  "preview_icon": "resources/icon.svg",
+  "min_framework_version": "1.0.0",
+  "os": [
+    {
+      "platform": "windows"
+    }
+  ],
+  "supported_devices": [
+    {
+      "type": "dashboard_lcd"
+    }
+  ],
+  "interactive": true
+}
