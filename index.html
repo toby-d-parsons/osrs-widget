@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css"
+    <title></title>
+</head>
+<body>
+    <p1 id="skills"></p1>
+    <p1 id="bosses"></p1>
+
+    <!--- Currently separate templates for readability. Could merge into one in future if style is the same -->
+
+    <template id="skills-template">
+        <div class="skill-container">
+            <button type="button" class="skill-button-container">
+                <div class="icon-container">
+                    <img class="skill-icon"></img>
+                </div>
+                <div class="skill-level">--</div>
+            </button>
+            <div class="skill-info-container hidden">
+                <div class="skill-name">--</div>
+                <div class="skill-rank">--</div>
+                <div class="skill-experience">--</div>
+                <div class="skill-experience-remaining">--</div>
+            </div>
+        </div>
+    </template>
+
+    <template id="bosses-template">
+        <div class="bosses-container">
+            <button type="button" class="boss-button-container">
+                <div class="icon-container">
+                    <img class="boss-icon"></img>
+                </div>
+                <div class="boss-killcount">--</div>
+            </button>
+            <div class="boss-info-container hidden">
+                <div class="boss-name">--</div>
+                <div class="boss-rank">--</div>
+                <div class="boss-killcount">--</div>
+            </div>
+        </div>
+    </template>
+</body>
+</html>
