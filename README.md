@@ -4,6 +4,8 @@ A custom iCUE widget for the Corsair XENEON EDGE that displays Old School RuneSc
 
 The widget is built as a native iCUE widget using HTML, CSS, and JavaScript.
 
+![alt text](image.png)
+
 ## Features
 
 * Displays OSRS skill data
